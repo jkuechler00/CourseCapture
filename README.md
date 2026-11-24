@@ -18,3 +18,6 @@ This is a template for the Python project in the course _Introduction to Compute
 7. Run code linting: `pylint [project_name]`
 8. Run static type checking: `mypy .`
 9. Run code formatter: `black .`
+
+
+#BasedPyright herunterladen und auch als extension adden, danach kann man run basedpyright und dann sieht man obs error warnings etc hat und im optimalfall ist errors und warnings = 0 (schon heruntergeladen), pylint wollen wir auch, ruff auch damit formatierungen leerzeichen etc gemacht werden mit run ruff, linienlänge 88 (konfigurierbar in pyproject toml), wenn wir im toml dependencies definieren dann brauchen wir requirements.txt nicht mehr er schickt uns das
